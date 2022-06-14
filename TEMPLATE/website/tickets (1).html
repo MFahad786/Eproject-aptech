@@ -1,0 +1,439 @@
+<!doctype html>
+<html>
+<head>
+
+	<!--All Links-->
+
+<meta charset="utf-8">
+<title> Amusement Park </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" href="mystyle.css">
+<script src="All script.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+		<!--Navbar start-->
+        
+<header class="navbar-fixed-top">
+<nav class="navbar navbar-default">
+<div class="container-fluid" style="box-shadow: 1px 2px 15px #666">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+<a class="navbar-brand" href="#"  id="logo" >Merciado Amuesment Park</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav" id="nav1">
+<li><a href="Home.html" class="cool-link">Home</a></li>
+<li><a href="Gallary.html" class="cool-link">Gallary</a></li>
+<li><a href="Resturant.html" class="cool-link"> Restaurant</a></li>
+<li><a href="Entertainmemt.html" class="cool-link">Entertainment</a></li>
+<li id="home-active"><a href="#">Ticket's</a></li>
+<li><a href="contact us.html" class="cool-link">Contact us</a></li>
+<li><a href="about us.html" class="cool-link" style="border-right:1px solid #CCC">About us</a></li>
+</ul>
+    
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#" id="myBtn6" class="cool-link" style="margin-top:8px"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+<li><a href="#" id="myBtn5" class="cool-link" style="margin-top:8px"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+</ul>
+</div>
+</nav>
+</header>
+
+		<!--Navbar end-->
+			
+		<!--Top text-->
+
+<h1 id="top-text" >Tickets</h1>
+		
+		<!--Top image--> 
+
+<img src="joe-yates-480485-unsplash.jpg" id="gallary-image" style="width:100%; height:400px;">
+
+<br><br><br><br>
+		<!--Price Categories strat-->
+
+<div class="container">
+<h3>PRICES</h3>
+<table>
+
+<tr id="price-row">
+<th style="text-align:center"> PRICE CATEGORIES</th>
+<th id="price-data"> Weekday</th>
+<th id="price-data"> Weekend</th>
+<th id="price-data"> Faimly Pack</th>
+</tr>
+
+<tr id="price-row">
+<td id="price-categories"><strong>Infants (under 4)</strong><br>Proof of age in the form of a current passport or copy of the birth certificate is required. Without valid proof of age, the price for children (aged 4 - 11) will be charged.</td>
+<td id="price-data">FREE</td>
+<td id="price-data">FREE</td>
+<td id="price-data">FREE</td>
+</tr>
+
+<tr id="price-row">
+<td id="price-categories"><strong>Children (aged 4-11)</strong><br>Proof of age in the form of a current passport or copy of the birth certificate is required. Without valid proof of age, the price for adults (aged 12+) will be charged.</td>
+<td id="price-data">Rs. 300</td>
+<td id="price-data">Rs. 500</td>
+<td id="price-data">Rs. 200</td>
+</tr>
+
+<tr id="price-row">
+<td id="price-categories"><strong>Children on their birthday </strong><br>(up to their 12th birthday and on presentation of an identity card)</td>
+<td id="price-data">FREE</td>
+<td id="price-data">FREE</td>
+<td id="price-data">FREE</td>
+</tr>
+
+<tr id="price-row">
+<td id="price-categories"><strong>Adults (aged 12+)</strong></td>
+<td id="price-data">Rs. 500</td>
+<td id="price-data">Rs. 700</td>
+<td id="price-data">Rs. 300</td>
+</tr>
+
+<tr id="price-row">
+<td id="price-categories"><strong>Senior Visitors (aged 60+)</strong><br>Offers for Senior Visitors (aged 60+).</td>
+<td id="price-data">FREE</td>
+<td id="price-data">200</td>
+<td id="price-data">FREE</td>
+</tr>
+</table>
+</div>    
+        
+		<!--Price Categories end-->
+
+
+		<!--Calaender Heading-->
+        
+<div class="col-md-12" style="padding:70px;">
+<h1 class="text-center">Select When You're Going</h1></div>
+<hr>
+</div>
+
+		<!--Calender start-->
+        
+<div class="container"	>
+<div class="col-md-12">            
+<div class="col-md-2"></div>
+<div class="col-md-8">
+<div class="month" style="border:2px solid black">      
+
+<ul>
+<li><span id="prev">&#10094;</span></li>
+<li>May<br><span style="font-size:18px">2019</span></li>
+<li><span id="next">&#10095;</span></li>
+</ul>
+
+</div>
+
+<ul class="weekdays" style="">
+<li>Mon</li>
+<li>Tue</li>
+<li>Wed</li>
+<li>Thu</li>
+<li>Fri</li>
+<li>Sat</li>
+<li>Sun</li>
+</ul>
+
+<ul class="days" style="border:2px solid black">  
+<li></li>
+<li></li>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li id="weekend">4</li>
+<li id="weekend">5</li>
+<li>6</li>
+<li>7</li>
+<li>8</li>
+<li>9</li>
+<li>10</li>
+<li id="weekend">11</li>
+<li id="weekend">12</li>
+<li>13</li>
+<li>14</li>
+<li class="active">15</li>
+<li>16</li>
+<li>17</li>
+<li id="weekend">18</li>
+<li id="weekend">19</li>
+<li>20</li>
+<li>21</li>
+<li>22</li>
+<li>23</li>
+<li>24</li>
+<li id="weekend">25</li>
+<li id="weekend">26</li>
+<li>27</li>
+<li>28</li>
+<li>29</li>
+<li>30</li>
+<li>31</li>
+
+</ul>
+</div>
+
+<div class="col-md-2"></div>
+</div>
+</div>
+
+		<!--Calender end-->	
+
+<br><br>
+
+		<!--Rates-->        
+
+<div class="container">
+<div class="col-md-3" style="width:21%;"></div>
+    
+<div class="col-md-3" style="background-color:#CCC; border:2px solid black">
+<h2 class="text-center">Weekday</h2>
+<h4 class="text-center">From Rs 500</h4></div>
+    
+<div class="col-md-1"></div>
+    
+<div class="col-md-3" style="background-color:#999; border:2px solid black">
+<h2 class="text-center">Weekend</h2>
+<h4 class="text-center">From Rs 700</h4></div>
+    
+<div class="col-md-3"></div>
+
+
+		<!--Selet the number of the ticket start-->
+
+
+<div class="container">
+<div class="col-md-12">
+<h1 class="" style="padding:60px 0px 30px 180px;">Select the Number of The Ticket<br><p style="font-size:14px">Please note that children age bellow 3 don't need a ticket.</p></h1>
+
+<div class="col-md-2" style="width:15%"></div>
+
+<div class="col-md-5" id="select-num">
+<h3 style="display:inline-block;vertical-align:middle; width:35%">Age 3-11</h3>
+<span id="down" onclick=" down('0')" onClick="ticket1('0')" <i class="fa fa-minus-circle" style="display:inline-block; font-size:34px;vertical-align:middle; color:#009;cursor:pointer;"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" id="myNumber" value="0"  style="outline:none; border:none; background-color:#f5f5f5; width:22px; font-size:18px;vertical-align:middle; display:inline-block"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span id="up" onclick="up('20')" onClick="ticket2('20')"><i class="fa fa-plus-circle" style="display:inline-block;font-size:34px; vertical-align:middle; color:#009; cursor:pointer"></i></span>          
+</div>
+
+<div class="col-md-5" id="select-num">
+<h3 style="display:inline-block;vertical-align:middle; width:35%">Age 12+</h3>
+
+<span id="down" onclick=" down1('0')" onClick="ticket1('0')"><i class="fa fa-minus-circle" style="display:inline-block; font-size:34px;vertical-align:middle; color:#009;cursor:pointer"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="text" 	id="myNumber1"   value="0"  style="outline:none; border:none; background-color:#f5f5f5; width:22px; font-size:18px;vertical-align:middle; display:inline-block"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span id="up" onclick="up1('20')" onClick="ticket1('0')"><i class="fa fa-plus-circle" style="display:inline-block;font-size:34px; vertical-align:middle; color:#009; cursor:pointer"></i></span>         
+
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
+
+
+ 		<!--Selet the number of the ticket end-->
+
+
+
+		<!--Collect your Ticket start-->
+  
+<div class="container">
+<div class="col-md-12">
+
+<div class="col-md-4"></div>
+
+<div class="col-md-4" style=" border:2px solid black; border-radius:8px;">
+<h5>1-Day Regular Ticket for <h4><strong>Merciado Amuesment Park</strong></h4></h5>
+<input type="text" value="0" id="ticket1" style="outline:none; border:none; background-color:#f5f5f5; width:22px; font-size:18px;vertical-align:middle; display:inline-block"/> 
+<h5 style="display:inline-block">(Age 3-11)&nbsp;
+<strong>Rs.300</strong>&nbsp;/ticket</h5>
+<br>
+<input type="text" value="0" id="ticket2" style="outline:none; border:none; background-color:#f5f5f5; width:22px; font-size:18px;vertical-align:middle; display:inline-block"/>
+<h5 style="display:inline-block">(Age 12+)&nbsp;
+<strong>&nbsp;Rs.500</strong>&nbsp;/ticket</h5>
+<p id="total"></p>
+
+</div>
+<div class="col-md-4"></div>
+</div>          
+</div>
+
+		<!--Collect your ticket end-->
+
+
+		<!--Footer Start-->
+        
+<div class="container" id="footer">
+<div class="col-md-12" style="padding-top:50px;">
+<div class="col-md-3" style="border-right:1px solid #FFF; border-left:1px solid #FFF; height:205px">
+<h4>Amuesment Park</h4>
+<hr><h5>With the development of society,there are more and more amusement parks appearing. While they are similar, inside just have some amusement equipment, so these playgrounds are only one place for play,and they can not survive for a long time.</h5>
+</div>
+
+
+<div class="col-md-3" style="border-right:1px solid #FFF;  height:205px">
+<h4>Our Service</h4>
+<hr>
+<p><a class="dark-grey-text"href="#">Contact us</a></p>
+<p><a class="dark-grey-text" href="#!">About us</a></p>
+<p><a class="dark-grey-text" href="#!">Customer Service </a></p>
+<p><a class="dark-grey-text" href="#!">Privacy Policy</a></p>
+</div>
+
+
+
+<div class="col-md-3" style="border-right:1px solid #FFF; ">
+<h4>Use full links</h4>
+<hr>
+<p><a class="dark-grey-text"href="#">Your Account</a></p>
+<p><a class="dark-grey-text" href="#!">Find a location</a></p>
+<p><a class="dark-grey-text" href="#!">Site Map</a></p>
+<p><a class="dark-grey-text" href="#!">Help</a></p>
+</div>
+
+
+
+<div class="col-md-3" style="border-right:1px solid #FFF;">
+<h4>contact us</h4>
+<hr>
+<p><i class="fas fa-home mr-3"></i>&nbsp;&nbsp; Korangi Branch KHI.</p>
+<p><i class="fas fa-envelope mr-3"></i>&nbsp;&nbsp; rafay3651@gmail.com</p>
+<p><i class="fas fa-phone mr-3"></i>&nbsp;&nbsp; + 92 234 567 88</p>
+<p><i class="fas fa-print mr-3"></i>&nbsp;&nbsp; + 021 234 567 89</p>
+</div>
+
+
+<hr style="width:100%">
+<div class="col-md-12">
+<div class="col-md-12" id="icon">
+<ul>
+<li style="background-color:#06F"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li style="background-color:#09F"><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li style="background-color:#960"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+<li style="background-color:#F00"><a href="#"><i class="fab fa-youtube"></i></a></li>
+<li style="background-color:#96F"><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+<h5 style="color:#999">All Copy Right Reserved By "Abdul Rafay".</h5>
+</div>
+</div>
+</div></div>
+		
+        <!--Footer end-->
+
+		<!--Scroll to top button-->
+        
+<input type="button" id="myBtn" value="Top" onClick="topFunction()"/> 
+
+
+		<!--SIgn in-->      
+
+<div class="container">
+<div class="modal fade" id="myModal" role="dialog" >
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header" style="padding:10px 70px;">
+<button type="button" class="close"  data-dismiss="modal">&times;</button>
+
+<h1> Sign in</h1>
+
+</div>
+
+<div class="modal-body" style="padding:20px 40px;">
+<form role="form">
+<div class="form-group" id="form1">
+<span><i class="fas fa-envelope"></i></span>
+<input type="text" required id="usrname" placeholder="Enter email">
+</div>
+            
+<div class="form-group" id="form2">
+<span><i class="fas fa-lock"></i></span>
+<input type="password" required id="psw" placeholder="Enter password">
+</div><br>
+<p style="float:right; font-size:12px"> <a href="#">Forgot Password?</a></p>
+<br><br>
+<button type="submit" class="btn btn-primary btn-block" id="btn-login"><span><i class="fas fa-sign-in-alt"></i></span> Login</button>
+</form>
+</div>
+<p style="text-align:center">or sign in with:</p>
+       
+       
+       
+<div class="modal-footer">
+<div class="text-center">
+<br>
+<button type="button" class="btn btn-white"><i class="fab fa-facebook-f text-center"></i></button>
+<button type="button" class="btn btn-white"><i class="fab fa-twitter"></i></button>
+<button type="button" class="btn btn-white"><i class="fab fa-google-plus-g"></i></button>
+</div>
+<br>
+<p style="color:#999; font-size:12px">Not a member? <a href="#">Sign Up</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+		<!--Sign up-->
+
+<div class="container" >
+<div class="modal fade" id="modal-signup" role="dialog" >
+<div class="modal-dialog" style="margin-top:-30px">
+<div class="modal-content" style="width:85%">
+<div class="modal-header" style="padding:8px 70px;">
+<button type="button" class="close"  data-dismiss="modal">&times;</button>
+
+<h1> Sign up</h1>
+<h4 class="text-center">Please fill in this form to create an account.</h4>
+</div>
+
+<div class="modal-body" style="padding-left:100px;">
+<form role="form">
+<div class="form-group" id="form1">
+<h5>Full Name*</h5>
+<input type="text" required id="usrname" placeholder="Enter your name">
+</div>
+       
+<div class="form-group" id="form1">
+<h5>Email*</h5>
+<input type="text" required id="email" placeholder="Enter your email">
+</div>
+       
+            
+<div class="form-group" id="form1">
+<h5>Password*</h5>
+<input type="password" required id="psw" placeholder="Enter password">
+</div>
+
+<div class="form-group" id="form1">
+<h5>Repeat Password*</h5>
+<input type="password" required id="re-psw" placeholder="Repeat Password">
+</div>
+
+<label>
+<input type="checkbox" checked="checked"/>&nbsp&nbsp;&nbsp;Remember me</label><br>
+<p>By Creating an account you agree to our <br><a href="#">Terms & Privacy</a></p>
+<br>
+<button type="submit" class="btn btn-primary btn-block" id="btn-singup">Sing up</button>
+</form>
+<br>       
+</div>
+</div>
+</div>
+</div>
+
+ 
+</body>
+</html>
+ 
+ 
