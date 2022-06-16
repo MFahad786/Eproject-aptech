@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 150px;
+    float: right;
+}
+ul{
+    margin-left: 60px;
+}
+#toptext{
+    position: absolute;
+    z-index: 1;
+    animation-name: toptext1;
+    animation-duration: 3s;
+    margin-top: -40px;
+    font-size: 70px;
+    margin-left: 30px;
+    color:black;
+    font-weight: 700;
+    animation-fill-mode: forwards;
+}
