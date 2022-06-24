@@ -6,32 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Eproject-aptech/design.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <!-- bhai sign up agr kisi sy ban raha hy to bana lo sign up page mere me error araha h  -->
-    <p>hello bhaioo </p>
-    <p>agr signup pagee ban raha hy to banalo index sy link hoa va hy  </p>
-    <p>file name: signup</p>
-    <div id="login-box">
-        <div class="left">
-          <h1>Sign up</h1>
-          
-          <input type="text" name="username" placeholder="Username" />
-          <input type="text" name="email" placeholder="E-mail" />
-          <input type="password" name="password" placeholder="Password" />
-          <input type="password" name="password2" placeholder="Retype password" />
-          
-          <input type="submit" name="signup_submit" value="Sign me up" />
-        </div>
+  <header class="p-3 bg-dark text-white">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <img  src="../Eproject-aptech/imgs/logo2.png" alt="" height="50px" width="100px" id="img5" >
+      <!-- <a href="../Eproject-aptech/imgs/LOGO.png" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" > -->
+      <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg> -->
+      </a>
+      <br>
+
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="../Eproject-aptech/index.html" class="nav-link px-2 text-secondary">Home</a></li>
+        <li><a href="../Eproject-aptech/gallery.html" class="nav-link px-2 text-white">Gallery</a></li>
+        <li><a href="../Eproject-aptech/Restaurant.html" class="nav-link px-2 text-white">Restaurant</a></li>
+        <li><a href="../Eproject-aptech/Entertainment.html" class="nav-link px-2 text-white">Entertainment</a></li>
+        <li><a href="../Eproject-aptech/Ticket's.html" class="nav-link px-2 text-white">Ticket's</a></li>
+        <li><a href="../Eproject-aptech/Contactus.html" class="nav-link px-2 text-white">Contact us</a></li>
+        <li><a href="../Eproject-aptech/Aboutus.html" class="nav-link px-2 text-white">About us</a></li>
+      </ul>
+
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        <input type="search" class="form-control form-control-dark text-white bg-dark"
+          placeholder="Search..." aria-label="Search">
+      </form>
+
+      <div class="text-end">
+        <a href=""button type="button" class="btn btn-outline-light me-2">Login</a>
+        <a href="../Eproject-aptech/signup.html" button  type="button" class="btn btn-warning">Sign-up</a>
         
-        <div class="right">
-          <span class="loginwith">Sign in with<br />social network</span>
-          
-          <button class="social-signin facebook">Log in with facebook</button>
-          <button class="social-signin twitter">Log in with Twitter</button>
-          <button class="social-signin google">Log in with Google+</button>
-        </div>
-        <!-- <div class="or">OR</div> -->
       </div>
+    </div>
+  </div>
+</header>
+  <br><br>
+  <form action="" id="div2">
+      <div>
+          <h1>Sign up</h1>
+          <p>Fill the from to create an account.</p>
+          <br>
+          <div>
+              <b>Name</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="text" placeholder="Type Your Name Here...">
+              <br><br>
+          </div>
+          <div>
+              <b>Email</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="email" placeholder="Type Your Email Here...">
+              <br><br>
+          </div>
+          <div>
+              <b>Password</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="password" placeholder="Type Your Password Here....">
+              <br><br>
+          </div>
+          <div>
+              <b>Repeat Password</b>
+              <input type="Password" placeholder="Rewrite Your Password Here...">
+              <br><br>
+          </div>
+          <div>
+              <b>Gender</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="Gender" value="male">Male
+              &nbsp;
+              <input type="radio" name="Gender" value="female">Female
+              &nbsp;
+              <input type="radio" name="Gender" value="other">Other
+              <br><br>
+          </div>
+          <div>
+              <b>Address</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="address" placeholder="Type Your address here...">
+          
+          </div>
+          <br><br>
+          <button type="cancel" class="cancelBTN">Cancel</button>
+          &nbsp;&nbsp;
+          <button type="submit " class="signupbtn">Signup</button>    
+      </div>
+  </form>
 </body>
 </html>
