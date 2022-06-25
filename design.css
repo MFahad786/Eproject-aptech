@@ -210,8 +210,140 @@ ul {
   margin-left: 900px;
  
   }
-    
-    
-
-
+  .sliderimg{
+    width: 700px 700px;
+    margin-left: 250px;
   }
+  .mb-4{
+    padding-bottom: 20px;
+  }
+  #homeimages1{
+    width:500px;
+	height:300px;
+	box-sizing:border-box;
+	transition:1s;
+	box-shadow:10px 10px 10px  #999999; 
+  display: inline-block;
+  vertical-align: text-top;
+  float: right;
+  margin-right: 200px;
+  margin-top: 30px;
+  }
+  #homeimages1:hover{
+    cursor:pointer;
+    transform:scale(1.1)
+  }
+  #heading3{
+    color:#09F;
+	font-family:"Lucida Grande",
+	"Lucida Sans Unicode", "Lucida Sans",
+	"DejaVu Sans", Verdana, sans-serif;
+  margin-left: 200px;
+  
+    
+    
+  }
+  #para3{
+    color: rgb(0, 0, 0);
+	width:30%;
+	text-align: justify;
+	font-size:20px;
+	line-height:50px;
+	font-family:'Staatliches', cursive;
+  margin-left: 200px;
+ 
+  }
+  /* page headings */
+/* Style 7
+   ----------------------------- */
+   .seven h1 {
+    text-align: center;
+        font-size:60px; font-weight:300; color:#222; letter-spacing:1px;
+        text-transform: uppercase;
+    
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    .seven h1:after,.seven h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #c50000;
+        border-top: 1px solid #c50000;
+        height: 5px;
+      background-color:#f8f8f8;
+      
+    }
+    /* gallery heading end */
+    /* galleryimages css */
+    .galleryimages{
+      width:500px;
+	height:300px;
+	box-sizing:border-box;
+	transition:1s;
+	box-shadow:10px 10px 10px  #999999; 
+  display: inline-block;
+  /* vertical-align: text-top; */
+  /* float: right; */
+  margin-left: 200px;
+  margin-top: 30px;
+  /* padding-right: 15px; */
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 10px;
+    
+    }
+    .galleryimages:hover{
+      cursor:pointer;
+    transform:scale(1.1)
+
+    }
+    
+
+    /* galleryimages css */
+
+#heading4{
+  color:#09F;
+	font-family:"Lucida Grande",
+	"Lucida Sans Unicode", "Lucida Sans",
+	"DejaVu Sans", Verdana, sans-serif;
+  margin-left: 200px;
+}
+#para4{
+  color: rgb(0, 0, 0);
+	width:30%;
+	text-align: justify;
+	font-size:20px;
+	line-height:50px;
+	font-family: 'Dancing Script', cursive;
+  margin-left: 200px;
+  font-weight: 100;
+}
+#image5{
+  width:500px;
+	height:300px;
+	box-sizing:border-box;
+	transition:1s;
+	box-shadow:10px 10px 10px  #999999; 
+  display: inline-block;
+  vertical-align: text-top;
+  float: right;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+#image5:hover{
+  cursor:pointer;
+    transform:scale(1.1)
+}
+#imgh{
+  padding-top: 25px;
+  padding-left: 20px;
+}
+    
+
+
+  
