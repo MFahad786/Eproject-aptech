@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:black ;
+    /* background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(imgs/22772.jpg); */
+    /* background-position: cover */
+    ;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+
+
+.homeimg{
+    margin-left: 70px;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    animation: animation: fadeTop 1s cubic-bezier(.77,0,.175,1) 1;
+    transition:1s;
+}
+.homeimg:hover{
+    cursor:pointer;
+    transform:scale(1.1)
+}
+#profile{
+    width: 2px;
+    height: 2px;
+}
+#mi1{
+    font-size: 37px;
+    /* float: right; */
+}
+/* .hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.navbar .dropdown-menu a:hover {
+    color: #d8c6c6 !important;
+}
+.darken-grey-text {
+    color: #2E2E2E;
+} */
+#navbar1{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.div1{
+    display: inline-block;
+    
+}
+.heading1{
+    padding-left: 70px;
+    color: beige;
+}
+#heading1{
+    color:rgb(49, 71, 86);
+	font-family:"Lucida Grande",
+	"Lucida Sans Unicode", "Lucida Sans",
+	"DejaVu Sans", Verdana, sans-serif;
+  margin-left: 900px;
+}
+#para2{
+    color: white; 
+	width:30%;
+	text-align: justify;
+	font-size:20px;
+	line-height:50px;
+	font-family:'Staatliches', cursive;
+  margin-left: 900px;
+}
+#heading3{
+    color:rgb(58, 76, 89);
+	font-family:"Lucida Grande",
+	"Lucida Sans Unicode", "Lucida Sans",
+	"DejaVu Sans", Verdana, sans-serif;
+  margin-left: 200px;
+  
+    
+    
+  }
+  #para3{
+    color: rgb(255, 254, 254);
+	width:30%;
+	text-align: justify;
+	font-size:20px;
+	line-height:50px;
+	font-family:'Staatliches', cursive;
+  margin-left: 200px;
+ 
+  }
+  #homeimages1{
+    width:500px;
+	height:300px;
+	box-sizing:border-box;
+	transition:1s;
+	box-shadow:10px 10px 10px  #999999; 
+  display: inline-block;
+  vertical-align: text-top;
+  float: right;
+  margin-right: 200px;
+  margin-top: 30px;
+  }
+  #homeimages1:hover{
+    cursor:pointer;
+    transform:scale(1.1)
+  }
+  #homeimages{
+    width:500px;
+	height:300px;
+	box-sizing:border-box;
+	transition:1s;
+	box-shadow:10px 10px 10px  #999999; 
+  display: inline-block;
+  vertical-align: text-top;
+  float: left;
+  margin-left: 200px;
+  margin-top: 30px;
+  }
+  #homeimages:hover{
+    cursor:pointer;
+    transform:scale(1.1)
+  }
+
+  /* galleryimages css */
+.seven{
+    padding: 100px;
+    text-transform: uppercase;
+    font-size: 150px;
+    color: #ffffff!important;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+
+
+  .galleryimages{
+    width:500px;
+  height:300px;
+  box-sizing:border-box;
+  transition:1s;
+  box-shadow:10px 10px 10px  #999999; 
+display: inline-block;
+/* vertical-align: text-top; */
+/* float: right; */
+margin-left: 200px;
+margin-top: 30px;
+/* padding-right: 15px; */
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 10px;
+  
+  }
+  .galleryimages:hover{
+    cursor:pointer;
+  transform:scale(1.1)
+
+  }
+  
+
+  /* galleryimages css */
+  /* entertainment */
+ .col-md-12{
+    display: -webkit-box;
+  }
+  #entertainment-option h3{
+	color:#09F;
+	font-size:28px;
+	width:100%;
+	font-weight:bold;
+	cursor:pointer;}	
+	
+#entertainment-option h5{
+	
+	line-height:23px;
+	color:#666;
+	width:293px;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif;}	
+
+
+
+
+
+
+  /* entertainment */
+/* about us */
+#wel{
+    display:flex; justify-content:space-between; text-align:start; padding-left: 190px;
+    padding-right: 190px;
+}
+#a1{
+   margin-bottom:0;
+}
+
+#bute{
+      width: 105px;
+      text-align: start;
+      align-self: center;
+
+
+
+}
+
+#messa{
+  display: flex; 
+  justify-content: space-between;
+  text-align: start;
+  padding-left: 30%;
+
+}
+
+#meea{
+  margin-bottom: 0;
+
+}
+
+#ce2{
+    margin-bottom:0;
+}
+/*#abb{
+  text-align: center;
+  color:white;
+  margin-top:-175px;
+  font-size:60px;
+  font-weight:bolder;
+  margin-left:30px;
+  color:white;
+  font: weight 3px;
+}
+*/
+#cont{
+  color:white;
+  margin-top:-75px;
+  font-size:60px;
+  font-weight:bolder;
+  margin-left:30px;
+  color:white;
+  font: weight 3px;
+}
+/* about us */

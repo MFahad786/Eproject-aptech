@@ -201,7 +201,7 @@ ul {
   }
   /* homeimages */
   #para2{
-    color: rgb(0, 0, 0);
+    color: white; 
 	width:30%;
 	text-align: justify;
 	font-size:20px;
@@ -244,7 +244,7 @@ ul {
     
   }
   #para3{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
 	width:30%;
 	text-align: justify;
 	font-size:20px;
