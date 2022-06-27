@@ -237,3 +237,173 @@ margin-top: 30px;
   font: weight 3px;
 }
 /* about us */
+/* signuppage css starts */
+/* *:focus {
+    outline: none; */
+  }
+/*   
+  body {
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  } */
+  
+  #img5{
+    margin-left: -50px;
+}
+
+
+
+
+#div2{
+
+    width: 600px;
+    height: 580px;
+    padding: 60px 100px;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    resize: none;
+    text-align: center;
+    margin-left: 28%;
+}
+  /* signuppage css ends */
+  /*Tickets page strat*/
+			
+			
+tr,td,th,p,h1,h2,h3,h4,h5,h6{
+	font-family:"Lucida Grande",
+	"Lucida Sans Unicode", "Lucida Sans",
+	"DejaVu Sans", Verdana, sans-serif;}			
+			
+#price-row{
+	height:80px;
+	color:#666;
+	border:1px solid #CCC;}			
+			
+#price-data{
+	padding:0px 20px 0px 0px;
+	text-align:center;
+	width:10%;
+	color:#666}			
+			
+			
+#price-categories{
+	padding-left:15px;}		
+	
+	
+#input-check{
+	width:40%;
+	height:30px;}
+	
+	
+
+			<!--Calender start-->
+
+.month ul {
+	background: #09c;
+  	margin: 0;
+  	list-style-type: none;
+	}
+
+.month ul li {
+  	color: white;
+  	font-size: 20px;
+  	text-transform: uppercase;
+	width:32%;
+	letter-spacing: 3px;
+	text-align:center;
+	display:inline-block;
+	vertical-align:middle;
+	}
+
+.weekdays {
+  	margin: 0;
+  	padding: 10px 0;
+  	width:100%;
+ 	background-color: #006;
+	}
+
+.weekdays li {
+  	display: inline-block;
+  	width: 13.6%;
+  	color: #FFF;
+  	text-align: center;
+	}
+
+.days {
+  	padding: 6px 0px;
+  	background: #CCC;
+  	margin: 0;
+  	width:100%;	
+	}
+
+.days li {
+  	list-style-type: none;
+  	display: inline-block;
+  	width: 13.6%;
+  	text-align: center;
+  	margin-bottom: 5px;
+	padding:10px 0px;
+  	font-size:12px;
+ 	color: #000;
+	transition:0.1s;
+	cursor:pointer;
+	
+ 	}
+
+.days li:hover{
+	background-color:#06C;
+	color:#FFF;
+	
+	}
+
+.days li .active {
+ 	padding: 5px;
+  	background: #1abc9c;
+  	color: white;
+	}
+
+
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+#weekend{
+	background-color:#999;
+	}
+
+#weekend:hover{
+	background-color:#06C;
+}
+	
+ul .active{
+	background-color:#06C;
+	color:#FFF;
+	}	
+
+			<!--Calender end-->	
+	
+			/*select the number*/		
+
+#select-num span{
+	font-size:30px;
+	color:#009;
+	cursor:pointer;
+	vertical-align:middle;
+	display:inline-block;
+	border:2px solid #009;
+	border-radius:100px;
+	padding:7px;
+	}
+
+#select-num h1{
+	display:inline-block;
+	padding:10px;
+	vertical-align:middle;
+	}
